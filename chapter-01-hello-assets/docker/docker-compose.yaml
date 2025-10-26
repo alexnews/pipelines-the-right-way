@@ -1,0 +1,17 @@
+services:
+  dagster:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    image: ustas007/pipelines-the-right-way:chapter-01
+    container_name: ptwr-ch01
+    environment:
+      - PYTHONPATH=/app/src
+      - PTWR_DATA_DIR=/app/data
+      - DAGSTER_HOME=/app/.dagster
+    ports:
+      - "3000:3000"
+    volumes:
+      - ../data:/app/data
+      - ./dagster_home:/app/.dagster
+    command: ["dagster", "dev", "-h", "0.0.0.0", "-p", "3000", "-m", "pipelines_the_right_way.ch01.defs"]

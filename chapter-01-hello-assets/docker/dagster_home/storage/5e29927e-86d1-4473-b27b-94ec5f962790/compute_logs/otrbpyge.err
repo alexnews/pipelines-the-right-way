@@ -1,0 +1,11 @@
+2025-10-13 17:22:37 +0000 - dagster - DEBUG - __ASSET_JOB - 5e29927e-86d1-4473-b27b-94ec5f962790 - 28778 - LOGS_CAPTURED - Started capturing logs in process (pid: 28778).
+2025-10-13 17:22:37 +0000 - dagster - DEBUG - __ASSET_JOB - 5e29927e-86d1-4473-b27b-94ec5f962790 - 28778 - iris_clean - STEP_START - Started execution of step "iris_clean".
+2025-10-13 17:22:37 +0000 - dagster - DEBUG - __ASSET_JOB - 5e29927e-86d1-4473-b27b-94ec5f962790 - iris_clean - Loading file from: /app/.dagster/storage/raw_iris using PickledObjectFilesystemIOManager...
+2025-10-13 17:22:37 +0000 - dagster - DEBUG - __ASSET_JOB - 5e29927e-86d1-4473-b27b-94ec5f962790 - 28778 - iris_clean - ASSET_OBSERVATION - DagsterEventType.ASSET_OBSERVATION for step iris_clean
+2025-10-13 17:22:37 +0000 - dagster - DEBUG - __ASSET_JOB - 5e29927e-86d1-4473-b27b-94ec5f962790 - 28778 - iris_clean - LOADED_INPUT - Loaded input "raw_iris" using input manager "io_manager"
+2025-10-13 17:22:37 +0000 - dagster - DEBUG - __ASSET_JOB - 5e29927e-86d1-4473-b27b-94ec5f962790 - 28778 - iris_clean - STEP_INPUT - Got input "raw_iris" of type "DataFrame". (Type check passed).
+2025-10-13 17:22:37 +0000 - dagster - DEBUG - __ASSET_JOB - 5e29927e-86d1-4473-b27b-94ec5f962790 - 28778 - iris_clean - STEP_OUTPUT - Yielded output "result" of type "DataFrame". (Type check passed).
+2025-10-13 17:22:37 +0000 - dagster - DEBUG - __ASSET_JOB - 5e29927e-86d1-4473-b27b-94ec5f962790 - iris_clean - Writing file at: /app/.dagster/storage/iris_clean using PickledObjectFilesystemIOManager...
+2025-10-13 17:22:37 +0000 - dagster - DEBUG - __ASSET_JOB - 5e29927e-86d1-4473-b27b-94ec5f962790 - 28778 - iris_clean - ASSET_MATERIALIZATION - Materialized value iris_clean.
+2025-10-13 17:22:37 +0000 - dagster - DEBUG - __ASSET_JOB - 5e29927e-86d1-4473-b27b-94ec5f962790 - 28778 - iris_clean - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+2025-10-13 17:22:37 +0000 - dagster - DEBUG - __ASSET_JOB - 5e29927e-86d1-4473-b27b-94ec5f962790 - 28778 - iris_clean - STEP_SUCCESS - Finished execution of step "iris_clean" in 34ms.

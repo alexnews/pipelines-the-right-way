@@ -1,0 +1,7 @@
+2025-10-13 17:19:35 +0000 - dagster - DEBUG - __ASSET_JOB - d6bfd47a-53e9-4ffe-8d88-8aa33a92dda7 - 23899 - LOGS_CAPTURED - Started capturing logs in process (pid: 23899).
+2025-10-13 17:19:35 +0000 - dagster - DEBUG - __ASSET_JOB - d6bfd47a-53e9-4ffe-8d88-8aa33a92dda7 - 23899 - raw_iris - STEP_START - Started execution of step "raw_iris".
+2025-10-13 17:19:35 +0000 - dagster - DEBUG - __ASSET_JOB - d6bfd47a-53e9-4ffe-8d88-8aa33a92dda7 - 23899 - raw_iris - STEP_OUTPUT - Yielded output "result" of type "DataFrame". (Type check passed).
+2025-10-13 17:19:35 +0000 - dagster - DEBUG - __ASSET_JOB - d6bfd47a-53e9-4ffe-8d88-8aa33a92dda7 - raw_iris - Writing file at: /app/.dagster/storage/raw_iris using PickledObjectFilesystemIOManager...
+2025-10-13 17:19:35 +0000 - dagster - DEBUG - __ASSET_JOB - d6bfd47a-53e9-4ffe-8d88-8aa33a92dda7 - 23899 - raw_iris - ASSET_MATERIALIZATION - Materialized value raw_iris.
+2025-10-13 17:19:35 +0000 - dagster - DEBUG - __ASSET_JOB - d6bfd47a-53e9-4ffe-8d88-8aa33a92dda7 - 23899 - raw_iris - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+2025-10-13 17:19:35 +0000 - dagster - DEBUG - __ASSET_JOB - d6bfd47a-53e9-4ffe-8d88-8aa33a92dda7 - 23899 - raw_iris - STEP_SUCCESS - Finished execution of step "raw_iris" in 66ms.

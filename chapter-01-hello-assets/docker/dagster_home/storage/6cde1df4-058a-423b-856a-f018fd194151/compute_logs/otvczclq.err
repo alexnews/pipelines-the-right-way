@@ -1,0 +1,11 @@
+2025-10-13 17:04:57 +0000 - dagster - DEBUG - __ASSET_JOB - 6cde1df4-058a-423b-856a-f018fd194151 - 799 - LOGS_CAPTURED - Started capturing logs in process (pid: 799).
+2025-10-13 17:04:57 +0000 - dagster - DEBUG - __ASSET_JOB - 6cde1df4-058a-423b-856a-f018fd194151 - 799 - iris_summary - STEP_START - Started execution of step "iris_summary".
+2025-10-13 17:04:57 +0000 - dagster - DEBUG - __ASSET_JOB - 6cde1df4-058a-423b-856a-f018fd194151 - iris_summary - Loading file from: /app/.dagster/storage/iris_clean using PickledObjectFilesystemIOManager...
+2025-10-13 17:04:57 +0000 - dagster - DEBUG - __ASSET_JOB - 6cde1df4-058a-423b-856a-f018fd194151 - 799 - iris_summary - ASSET_OBSERVATION - DagsterEventType.ASSET_OBSERVATION for step iris_summary
+2025-10-13 17:04:57 +0000 - dagster - DEBUG - __ASSET_JOB - 6cde1df4-058a-423b-856a-f018fd194151 - 799 - iris_summary - LOADED_INPUT - Loaded input "iris_clean" using input manager "io_manager", from output "result" of step "iris_clean"
+2025-10-13 17:04:57 +0000 - dagster - DEBUG - __ASSET_JOB - 6cde1df4-058a-423b-856a-f018fd194151 - 799 - iris_summary - STEP_INPUT - Got input "iris_clean" of type "DataFrame". (Type check passed).
+2025-10-13 17:04:57 +0000 - dagster - DEBUG - __ASSET_JOB - 6cde1df4-058a-423b-856a-f018fd194151 - 799 - iris_summary - STEP_OUTPUT - Yielded output "result" of type "DataFrame". (Type check passed).
+2025-10-13 17:04:57 +0000 - dagster - DEBUG - __ASSET_JOB - 6cde1df4-058a-423b-856a-f018fd194151 - iris_summary - Writing file at: /app/.dagster/storage/iris_summary using PickledObjectFilesystemIOManager...
+2025-10-13 17:04:57 +0000 - dagster - DEBUG - __ASSET_JOB - 6cde1df4-058a-423b-856a-f018fd194151 - 799 - iris_summary - ASSET_MATERIALIZATION - Materialized value iris_summary.
+2025-10-13 17:04:57 +0000 - dagster - DEBUG - __ASSET_JOB - 6cde1df4-058a-423b-856a-f018fd194151 - 799 - iris_summary - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+2025-10-13 17:04:57 +0000 - dagster - DEBUG - __ASSET_JOB - 6cde1df4-058a-423b-856a-f018fd194151 - 799 - iris_summary - STEP_SUCCESS - Finished execution of step "iris_summary" in 55ms.
